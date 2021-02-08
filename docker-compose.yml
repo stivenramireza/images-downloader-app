@@ -1,7 +1,7 @@
 version: '3'
 services:
   images-downloader:
-    build: .
+    build: images_downloader:latest
     restart: always
     ports:
       - "8000:8000"
