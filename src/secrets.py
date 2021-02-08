@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 from src.logger import logger
 
-PYTHON_ENV = os.environ.get('ENV')
+PYTHON_ENV = os.environ.get('PYTHON_ENV')
 if PYTHON_ENV == 'production':
     dotenv_path = '.env'
     logger.info('Loading production environment variables')
