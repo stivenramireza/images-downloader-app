@@ -34,7 +34,7 @@ async def download_files(images: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         downloaded_images = [image for image in responses]
         return downloaded_images
         
-async def download_images_from_ftp(images: List[Dict[str, Any]]) -> Any:
+async def download_images_from_server(images: List[Dict[str, Any]]) -> Any:
     try:
         downloaded_images: List[Dict[str, Any]] = await download_files(images)
         logger.info(f'Images from server have been downloaded successfully')

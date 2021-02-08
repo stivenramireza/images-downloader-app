@@ -7,23 +7,23 @@ client = TestClient(app)
 images = [
     {
         "image_id": 100, 
-        "resource": "https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg"
+        "resource": "https://pikwizard.com/photos/71c820cabadce0681a690d1f8c037732-m.jpg"
     }, 
     {
-        "image_id": 150, 
-        "resource": "https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg"
-    }, 
+        "image_id": 100, 
+        "resource": "https://pikwizard.com/photos/ea4fd6f25a43338fddde688136e87497-m.jpg"
+    },
     {
-        "image_id": 200, 
-        "resource": "https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297_960_720.jpg" 
-    }, 
+        "image_id": 200,
+        "resource": "https://pikwizard.com/photos/2589a1e71af3179ab26650de5bc67466-m.jpg"
+    },
     {
-        "image_id": 250, 
-        "resource": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"
-    }, 
+        "image_id": 200,
+        "resource": "https://pikwizard.com/photos/f5b20b453a4b8598022740d6f91c7952-m.jpg"
+    },
     {
-        "image_id": 300,
-        "resource": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg"
+        "image_id": 200,
+        "resource": "https://pikwizard.com/photos/bcb07f16924e72c3a0f784717dcb56c6-m.jpg"
     }
 ]
 
@@ -45,23 +45,23 @@ def test_download_images():
         "images": [
             {
                 "image_id": 100,
-                "resource": "12cb5eb6f19cc393afa92efa43c915de.jpg"
+                "resource": "9d1bd11d056b0caa086dd20684d15b10.jpg"
             },
             {
-                "image_id": 150,
-                "resource": "84901b6ce4d9d19a26dc2b6651de3594.jpg"
+                "image_id": 100,
+                "resource": "41b084900060d194256f0d4474410f5d.jpg"
             },
             {
                 "image_id": 200,
-                "resource": "1c861c8bf2530481963be6cf887664d2.jpg"
+                "resource": "a6c9a104e4fa4c68eeaa42bf0820eea5.jpg"
             },
             {
-                "image_id": 250,
-                "resource": "f9d276ffd376d268acffe66d3b88bd52.jpg"
+                "image_id": 200,
+                "resource": "041ba19d096da343f6566a4b468d7266.jpg"
             },
             {
-                "image_id": 300,
-                "resource": "0236bb405cafcdaac9ae53c37f832a9e.jpg"
+                "image_id": 200,
+                "resource": "71f29d7768dc1c6a390a37b24ab6a4c2.jpg"
             }
         ]
     }
