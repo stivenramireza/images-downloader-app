@@ -1,0 +1,6 @@
+__pycache__
+.pytest_cache
+src/__pycache__
+.env
+.env.dev
+Pipfile
