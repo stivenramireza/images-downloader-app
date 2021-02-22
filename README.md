@@ -14,5 +14,5 @@ FastAPI application to download thousands of images asynchronously in few minute
 
 ## Run API in production mode
 
-    $ docker build -t images_downloader:latest .
+    $ docker build -t images-downloader:latest .
 	$ docker-compose up -d
