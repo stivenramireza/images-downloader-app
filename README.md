@@ -1,4 +1,4 @@
-# Images Downloader
+# Images Downloader App
 
 FastAPI application to download thousands of images asynchronously in few minutes.
 
